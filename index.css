@@ -1,0 +1,60 @@
+
+.categories{ 
+	background-color: #BADA55;
+	margin: 0;
+	display: flex;
+	height: 100px;
+	width: 100%;
+	display: flex
+	flex-wrap: wrap;
+	font-size: 30px;
+	text-align: center;
+ }
+
+
+.categories li {
+	display: inline-block;
+	margin: 1%;
+	text-align: center;
+}
+
+.menu {
+	width: 100%;
+	display: flex;
+	justify-content: flex-center;
+	text-align: center
+}
+
+.slideshow {
+	width: 100%;
+	height: 200px;
+	background-image: url('background.png');
+	background-size: cover;
+	background-position: center;}
+
+.featured {
+	display: block;
+	float: left;
+	width: 70%;
+}
+
+.sidebar{
+	display: block;
+	float: right;
+	width: 30%;
+	text-align: center;
+}
+
+.pic {
+	width: 100px;
+	height: 100px;
+	background-image: url('me.jpg');
+	background-size: contain;
+	background-position: center;
+	border-radius: 50%;
+	margin: 15px auto;
+}
+
+
+
+	

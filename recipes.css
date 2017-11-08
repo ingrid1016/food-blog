@@ -1,0 +1,73 @@
+recipes.css
+
+body {
+	font-family: "Ovo", Times, serif;
+	padding: 0;
+	margin: 0;
+}
+
+.page-wrap{background-color: blue;}
+
+/*mobile rules first */
+
+/*fotter rules*/
+footer {
+	background-color: cornflowerblue;
+	padding: 0;
+	display: block;
+	position: fixed;
+	height: 20%;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+} 
+
+.footer-wrap{
+	max-width: 600px;
+	margin: 0 auto
+}
+.logo {
+	width: 100px;
+	height: 100px;
+	background-image: url('background.png');
+	background-size: contain;
+	background-position: center;
+	text-align: center;
+
+	margin: 15px auto;
+}
+
+
+
+footer h3 {
+	display: none;
+}
+
+footer nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+footer li {
+	display: inline-block;
+	width: 49%;
+	text-align: center;
+	margin-bottom: 15%;
+}
+
+footer a {
+	color: pink;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+footer a: hover {
+	color: white;
+}
+
+@ media (max-width: 600px){
+	body{
+		background-color: pink;
+	}
+}
